@@ -1,0 +1,12 @@
+import random
+a=[random.randint(0,100) for k in range(20)]
+
+for i in range(len(a)-1):
+    j = i
+    while a[j] > a[j+1] and j >= 0:
+        if(a[j] > a[j+1]):
+            a[j], a[j+1] = a[j+1], a[j]
+        j -= 1
+
+
+print(a)    
