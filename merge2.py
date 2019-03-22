@@ -28,4 +28,3 @@ def mergesort(a):
     return sorted
 
 print(mergesort(a))
-
